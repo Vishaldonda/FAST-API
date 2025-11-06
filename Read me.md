@@ -2,7 +2,6 @@
 python3 -m venv myenv
 
 Mac: source myenv/bin/activate
-
 On Windows : myenv\Scripts\activate
 
 TO Deactivate : deactivate
