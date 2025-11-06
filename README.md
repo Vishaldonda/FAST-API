@@ -1,22 +1,24 @@
 # 1. Virtual Env Set Up
-python3 -m venv myenv
+`python3 -m venv myenv`
 
-Mac: source myenv/bin/activate
-On Windows : myenv\Scripts\activate
+Mac: `source myenv/bin/activate`
+On Windows : `myenv\Scripts\activate`
 
 TO Deactivate : deactivate
 
-Save packages into a file : pip freeze > requirements.txt
+Save packages into a file : `pip freeze > requirements.txt`
 
 
 # 2. Install dependencies
 1. Install FastAPI and Uvicorn :
+```
 pip3 install fastapi uvicorn
 pip3 install sqlalchemy
 pip install bcrypt "python-jose[cryptography]"
+```
 
 # 3. Run your FastAPI app:
-uvicorn main:app --reload
+`uvicorn main:app --reload`
 
 
 # 4. Docs
